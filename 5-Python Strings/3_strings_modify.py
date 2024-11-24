@@ -23,5 +23,5 @@ print(a.replace("H", "J"))
 ######### 5-Split String
 
 a = "Hello, World!"
-print(a.split(",")) # returns ['Hello', ' World!']
+print(a.split("#")) # returns ['Hello', ' World!']
 

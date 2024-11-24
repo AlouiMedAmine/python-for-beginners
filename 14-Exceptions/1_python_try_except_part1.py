@@ -5,9 +5,10 @@
 
 ####### 2- Exception Handling
 
-
+#the program will crash and raise an error:
 
 #The try block will generate an exception, because x is not defined:
+
 try:
   print(x)
 except:
