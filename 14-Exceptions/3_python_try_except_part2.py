@@ -14,6 +14,7 @@ else:
 
 ############# 2- Finally
 
+
 try:
   print(x)
 except:
@@ -24,8 +25,8 @@ finally:
 
 ####### Example 2
 
-
 try:
+
   f = open("demofile.txt")
   try:
     f.write("Lorum Ipsum")
@@ -33,6 +34,7 @@ try:
     print("Something went wrong when writing to the file")
   finally:
     f.close()
+
 except:
   print("Something went wrong when opening the file")
 
@@ -46,13 +48,15 @@ x = -1
 if x < 0:
   raise Exception("Sorry, no numbers below zero")
 
-
-
 ####### Example 2
 
-
 ###Raise a TypeError if x is not an integer:
+
 x = "hello"
 
 if not type(x) is int:
   raise TypeError("Only integers are allowed")
+
+
+
+

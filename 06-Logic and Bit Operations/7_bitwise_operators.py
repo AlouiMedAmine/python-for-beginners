@@ -2,7 +2,7 @@
 
 
 print(6 & 3)
-#The & operator compares each bit and set it to 1
+#The Bitwise & operator compares each bit and set it to 1
 # if both are 1, otherwise it is set to 0:
 
 """
@@ -13,7 +13,7 @@ print(6 & 3)
 """
 
 print(6 | 3)
-#The | operator compares each bit and set it to 1
+#The Bitwise | operator compares each bit and set it to 1
 # if one or both is 1, otherwise it is set to 0:
 """
 6 = 0110
@@ -23,8 +23,10 @@ print(6 | 3)
 """
 
 print(6 ^ 3)
-#The ^ operator compares each bit and set it to 1 if only one is 1,
-# otherwise (if both are 1 or both are 0) it is set to 0:
+#The Bitwise ^ operator compares each bit and set
+# it to 1 if only one is 1,
+# otherwise (if both are 1 or both are 0)
+# it is set to 0:
 """
 6 = 0110
 3 = 0011
@@ -32,22 +34,26 @@ print(6 ^ 3)
 5 = 0101
 """
 
-print(~3)
-
-
+print(~5)
 
 """
-The ~ operator inverts each bit (0 becomes 1 and 1 becomes 0).
+The Bitwise ~ operator inverts each bit (0 becomes 1 
+and 1 becomes 0).
 
 Inverted 3 becomes -4:
  3 = 011
 -4 = 100
+
+Note:  ~x : This is the same as -x - 1.
+
+-4-1 = -5
+-5-1=-6
 """
 
-print(3 << 2)
+print(3 << 4)
 
 """
-The << operator inserts the specified number
+The Bitwise << operator inserts the specified number
  of 0's (in this case 2) from the right and 
  let the same amount of leftmost bits fall off:
 
@@ -57,14 +63,17 @@ becomes
 12 = 1100
 
 Note: x << y This is the same as multiplying x by 2**y.
+         (x << y   ===> x * 2**y)
+        
+         
 
 """
 
 
-print(8 >> 2)
+print(8 >> 4)
 
 """
-The >> operator moves each bit the specified
+The Bitwise >> operator moves each bit the specified
 number of times to the right.
 Empty holes at the left are filled with 0's.
 
@@ -72,6 +81,17 @@ If you move each bit 2 times to the right, 8 becomes 2:
  8 = 1000
 becomes
  2 = 0010
- 
+ 1 = 0001
+   = 0000
 Note:  x >> y  his is the same as // x by 2**y
+           x >> y   ====> x //2**y 
+          
 """
+
+
+
+
+
+
+
+

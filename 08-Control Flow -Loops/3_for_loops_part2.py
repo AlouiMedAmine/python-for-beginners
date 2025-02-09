@@ -21,6 +21,9 @@ else:
 
 
 ######## 2-Nested Loops
+#The "inner loop" will be executed one time
+#for each iteration of the "outer loop"
+
 
 adj = ["red", "big", "tasty"]
 fruits = ["apple", "banana", "cherry"]
@@ -42,5 +45,5 @@ for i in x:
 ######## 3- The pass Statement
 
 for x in [0, 1, 2]:
-  pass
+    pass
 

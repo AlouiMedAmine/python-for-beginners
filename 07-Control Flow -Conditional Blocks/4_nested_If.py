@@ -3,7 +3,6 @@
 ###### 1 - Nested If
 
 x = 41
-
 if x > 10:
     print("Above ten,")
     if x > 20:
@@ -11,12 +10,12 @@ if x > 10:
     else:
         print("but not above 20.")
 
-
 ###### 2 - The pass Statement
 
 a = 33
 b = 200
-
 if b > a:
-    pass
+   pass
 
+
+print("pass statement avoid getting an Error!")

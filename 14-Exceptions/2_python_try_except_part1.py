@@ -22,10 +22,15 @@ print(x)
 
 
 ############# 3- Many Exceptions
-
+x = 10
 try:
-  print(x)
+  print(x/0)
+
 except NameError:
   print("Variable x is not defined")
-except:
+
+except ZeroDivisionError:
+  print('Division by zero!')
+
+except Exception:
   print("Something else went wrong")
